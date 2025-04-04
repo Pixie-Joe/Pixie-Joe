@@ -1,0 +1,6 @@
+INSERT INTO salary VALUES
+(6, 87000, 2000, 'active', '2025-10-03 11:46:00.000');
+INSERT INTO salary VALUES
+(7, 110000, 2000, 'active', '2025-10-03 11:46:00.000');
+INSERT INTO salary VALUES
+(8, 33000, 400, 'inactive', '2025-10-03 11:46:00.000');

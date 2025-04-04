@@ -1,0 +1,11 @@
+--SELECT * FROM salary
+CREATE TRIGGER EMP_SAL_TRIG ON salary
+FOR INSERT AS 
+IF(SELECT amount FROM inserted) > 100000
+BEGIN
+   PRINT 'Employees Salary cannot exceed 100000'
+   ROLLBACK TRANSACTION
+END
+
+INSERT INTO salary VALUES
+(5, 57000, 3000, 'active', '2025-10-03 11:46:00.000')

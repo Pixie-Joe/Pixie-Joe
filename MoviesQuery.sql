@@ -1,0 +1,8 @@
+CREATE TABLE Movies
+(Movies_id INT PRIMARY KEY IDENTITY(1, 1),
+Names VARCHAR(255),
+Genre VARCHAR(255),
+Num_Cast INT);
+
+INSERT INTO Movies VALUES
+(''),
